@@ -1,0 +1,42 @@
+# Google Trend Data Visualization
+
+This project visualizes the relationship between Google search trends and financial data for Tesla and Bitcoin. The visualizations include graphs that show the correlation between search trends and stock prices over time.
+
+## Data Sources
+
+The data used in this project includes:
+- `data/TESLA Search Trend vs Price.csv`: Contains Tesla search trends and stock prices.
+- `data/Bitcoin Search Trend.csv`: Contains Bitcoin search trends.
+- `data/Daily Bitcoin Price.csv`: Contains daily Bitcoin prices.
+- `data/UE Benefits Search vs UE Rate 2004-19.csv`: Contains unemployment benefits search trends and unemployment rates.
+
+## Visualizations
+
+The project generates the following visualizations:
+1. **Tesla Web Search vs Price**: A graph showing the relationship between Tesla search trends and stock prices.
+2. **Bitcoin Web Search vs Price**: A graph showing the relationship between Bitcoin search trends and prices.
+
+## Usage
+
+To run the visualizations, follow these steps:
+
+1. **Install the required packages**:
+    ```sh
+    pip install pandas matplotlib
+    ```
+
+2. **Run the script**:
+    ```sh
+    python main.py
+    ```
+
+3. **View the generated images**:
+    - `images/Update Tesla Web Search vs Price.png`
+    - `images/Bitcoin Web Search vs Price.png`
+
+
+If you would like to contribute to this project, please fork the repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
